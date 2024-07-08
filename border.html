@@ -1,0 +1,74 @@
+<html>
+    <head>
+	<title>application form</title>
+	<style>
+	 .heading-one{
+	 border-style:dashed;
+	 margin:40px;
+	 Padding:30px;
+	 border-width:3px;
+	 border-color:brown;
+	 background-color:Pink;
+	 }
+	 .heading-two{
+	 border-style:ridge;
+	 border:5px solid;
+	 
+	 border-radius:17px;
+	 border-color:green;
+	 }
+	 .heading-three{
+     color:brown;
+	 }
+	 .heading-four{
+	 color:red;
+	 }
+	 </style>
+	 </head>
+	 <body>
+	 <form class="heading-one">
+	 <center><h1>Application Form</h1></center>
+	 <h2 class="heading-two">Please Enter your Details</h2>
+	 <label>Enter the name:</label>
+                <input type="text" id="ename" name="ename"><br>
+	<label>Enter the Age:</label>
+	            <input type="text" id="ename" name="ename"><br>
+	<label>Enter the DOB:</label>
+	            <input type="text" id="dname" name="dname"><br>
+	<label>Enter the Father Name:</label>
+	            <input type="text" id="fname" name="fname"><br>
+	<label>Enter the Father Number:</label>
+	            <input type="text" id="fname" name="fname"><br>
+	<label>Enter the Mother Name:</label>
+	            <input type="text" id="mname" name="mname"><br>
+	<label>Enter the Mother number:</label>
+	            <input type="text" id="mname" name="mname"><br>
+	<h4 class="heading-four"><label> Email Id:*</label></h4>
+                <input type="text" id="email" name="email" placeholder="enter email" required><br>
+	<h4 class="heading-four"><label> Password:*</label></h4>
+	            <input type="Password" id="pwd" name="pwd" placeholder="enter password"required><br>
+	<h4 class="heading-four"><label>Gender:*</label></h4>
+			<input type="radio" id="male" name="gender" required>male
+				<input type="radio" id="female" name="gender" required>female
+				<input type="radio" id="others" name="gender" required>others<br>
+	<h4 class="heading-four"><label>time</label></h4>
+				<input type="time">
+	<h4 class="heading-four"><label>date</label></h4>
+				<input type="date"><br>
+	<h4 class="heading-four"><label> courses:*</label></h4>
+				<h3 class="heading-three"><input type="checkbox" id="BCA" name="BCA" >BCA</h3>
+				<h3 class="heading-three"><input type="checkbox" id="BCOM" name="BCOM">BCOM</h3>
+				<h3 class="heading-three"><input type="checkbox" id="BSC" name="BSC">BSC</h3>
+				<h3 class="heading-three"><input type="checkbox" id="viscom" name="viscom" >viscom</h3><br>
+	<label>courses</label>
+	<select>
+	            <option>BCA</option>
+				<option>Bcom</option>
+				<option>Viscom</option>
+	</select><br>
+		        <center><input type="Submit" value="submit"></center>
+				<center><input type="reset"></center>
+    </form>				
+	</body>
+</html>	
+	
